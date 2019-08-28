@@ -2,9 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ff07f0ef-6fd2-4d1d-9280-9679d0208243" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Test/AddCommandTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Test/CommandTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/calc_interface.iml" beforeDir="false" afterPath="$PROJECT_DIR$/calc_interface.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Test/AddCommandTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/calc_interface/AddCommandTest.class" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -21,7 +22,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="833">
+            <state relative-caret-position="535">
               <caret line="49" column="55" selection-start-line="49" selection-start-column="55" selection-end-line="49" selection-end-column="55" />
             </state>
           </provider>
@@ -39,17 +40,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/AddCommand.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="9" selection-start-line="9" selection-end-line="9" />
+            <state relative-caret-position="85">
+              <caret line="5" column="8" selection-start-line="5" selection-start-column="8" selection-end-line="5" selection-end-column="8" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Test/AddCommandTest.java">
+        <entry file="file://$PROJECT_DIR$/Test/CommandTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="13" column="30" lean-forward="true" selection-start-line="13" selection-start-column="30" selection-end-line="13" selection-end-column="30" />
+            <state relative-caret-position="586">
+              <caret line="36" column="5" lean-forward="true" selection-start-line="36" selection-start-column="5" selection-end-line="36" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -108,6 +109,7 @@
         <option value="$PROJECT_DIR$/src/Main.java" />
         <option value="$PROJECT_DIR$/src/AddCommand.java" />
         <option value="$PROJECT_DIR$/Test/AddCommandTest.java" />
+        <option value="$PROJECT_DIR$/Test/CommandTest.java" />
       </list>
     </option>
   </component>
@@ -129,12 +131,17 @@
               <item name="Calculator" type="b2602c69:ProjectViewProjectNode" />
               <item name="Calculator" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="Calculator" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Calculator" type="462c0819:PsiDirectoryNode" />
+              <item name="Test" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -173,14 +180,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.AddCommandTest">
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Main" />
-      <module name="calc_interface" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="JUnit.CommandTest">
     <configuration name="AddCommandTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="calc_interface" />
       <option name="PACKAGE_NAME" value="" />
@@ -190,10 +190,52 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="AddCommandTest.evaluateAdd" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="calc_interface" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="AddCommandTest" />
+      <option name="METHOD_NAME" value="evaluateAdd" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CommandTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="calc_interface" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="CommandTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CommandTest.evaluateAdd" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="calc_interface" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="CommandTest" />
+      <option name="METHOD_NAME" value="evaluateAdd" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CommandTest.evaluateDivide" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="calc_interface" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="CommandTest" />
+      <option name="METHOD_NAME" value="evaluateDivide" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.CommandTest" />
+        <item itemvalue="JUnit.CommandTest.evaluateDivide" />
+        <item itemvalue="JUnit.CommandTest.evaluateAdd" />
+        <item itemvalue="JUnit.AddCommandTest.evaluateAdd" />
         <item itemvalue="JUnit.AddCommandTest" />
-        <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -217,6 +259,27 @@
     <history-entry file="AddCommandTest - 2019.08.27 at 18h 43m 20s.xml">
       <configuration name="AddCommandTest" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="AddCommandTest - 2019.08.27 at 19h 39m 52s.xml">
+      <configuration name="AddCommandTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="AddCommandTest - 2019.08.28 at 12h 08m 03s.xml">
+      <configuration name="AddCommandTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="AddCommandTest_evaluateAdd - 2019.08.28 at 12h 20m 24s.xml">
+      <configuration name="AddCommandTest.evaluateAdd" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="AddCommandTest_evaluateAdd - 2019.08.28 at 12h 21m 23s.xml">
+      <configuration name="AddCommandTest.evaluateAdd" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CommandTest_evaluateAdd - 2019.08.28 at 12h 25m 46s.xml">
+      <configuration name="CommandTest.evaluateAdd" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CommandTest - 2019.08.28 at 12h 28m 04s.xml">
+      <configuration name="CommandTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CommandTest_evaluateDivide - 2019.08.28 at 12h 28m 49s.xml">
+      <configuration name="CommandTest.evaluateDivide" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -227,7 +290,7 @@
       <window_info id="UI Designer" order="2" />
       <window_info id="Learn" order="3" />
       <window_info id="Capture Tool" order="4" />
-      <window_info content_ui="combo" id="Project" order="5" visible="true" weight="0.20042644" />
+      <window_info content_ui="combo" id="Project" order="5" visible="true" weight="0.20255864" />
       <window_info id="Structure" order="6" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Terminal" order="0" />
@@ -252,6 +315,13 @@
     </layout>
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/MinusCommand.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="8" selection-start-line="8" selection-end-line="8" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/MultiplyCommand.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
@@ -266,20 +336,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/MinusCommand.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="8" selection-start-line="8" selection-end-line="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/AddCommand.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" selection-start-line="9" selection-end-line="9" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/CalcCommand.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
@@ -289,15 +345,22 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="833">
+        <state relative-caret-position="535">
           <caret line="49" column="55" selection-start-line="49" selection-start-column="55" selection-end-line="49" selection-end-column="55" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Test/AddCommandTest.java">
+    <entry file="file://$PROJECT_DIR$/src/AddCommand.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" column="30" lean-forward="true" selection-start-line="13" selection-start-column="30" selection-end-line="13" selection-end-column="30" />
+        <state relative-caret-position="85">
+          <caret line="5" column="8" selection-start-line="5" selection-start-column="8" selection-end-line="5" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Test/CommandTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="586">
+          <caret line="36" column="5" lean-forward="true" selection-start-line="36" selection-start-column="5" selection-end-line="36" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
